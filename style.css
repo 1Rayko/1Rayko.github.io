@@ -1,4 +1,11 @@
-body{
- background: rgb(12,7,107);
-background: linear-gradient(90deg, rgba(12,7,107,1) 0%, rgba(181,120,227,1) 48%, rgba(62,75,78,1) 100%); 
+body
+
+{
+    color :white; 
+    font-family: Hack, monospace;
+    background: rgb(12,7,107);
+    background: linear-gradient(90deg, rgba(12,7,107,1) 0%, rgba(181,120,227,1) 48%, rgba(62,75,78,1) 100%); 
+}
+H1 {
+    text-align: center
 }
