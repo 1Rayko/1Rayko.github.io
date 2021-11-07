@@ -1,11 +1,46 @@
-body
+@media (min-width: 576px) {
+		body {
+			background: url(https://im0-tub-ru.yandex.net/i?id=82d1261a3ad14d4fbc6674187bb5aacc-l&ref=rim&n=13&w=640&h=640);
+		}
+	}
 
-{
-    color :white; 
-    font-family: Hack, monospace;
-    background: rgb(12,7,107);
-    background: linear-gradient(90deg, rgba(12,7,107,1) 0%, rgba(181,120,227,1) 48%, rgba(62,75,78,1) 100%); 
+
+/* Средние девайсы («таблетки», >= 768px) */
+@media (min-width: 768px) {
+    body {
+        background: url( https://pbs.twimg.com/profile_images/1140217390271066113/cM2sBWTb.jpg  );
+        color : white;
+    }
+
 }
+ 
+/* Большие девайсы (десктопы, >= 992px) */
+@media (min-width: 768px) {
+    body {
+        background: url( https://catherineasquithgallery.com/uploads/posts/2021-02/1614390868_74-p-temnii-fon-na-noutbuke-87.jpg );
+        color : white;
+    }
+
+}
+ 
+/* Экстрабольшие девайсы (большие десктопы, >= 1200px) */
+@media (min-width: 1200px) {
+    body {
+        background: url( https://catherineasquithgallery.com/uploads/posts/2021-02/1612932520_93-p-krasnii-fon-noutbuk-120.jpg );
+        color : #ffc6d4;    
+    
+    
+    }
+}
+ 
+/* общие стили для всех девайсов */
+body {
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: Hack, monospace;
+}
+
 H1 {
     text-align: center
 }
@@ -15,7 +50,11 @@ div{
 }
 
 
-.btn-grad {background-image: linear-gradient(to right, #fc00ff 0%, #00dbde  51%, #fc00ff  100%)}
+
+
+.btn-grad {background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%)}
+
+
 .btn-grad {
     margin: 10px;
     padding: 15px 45px;
