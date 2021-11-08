@@ -1,7 +1,7 @@
 @media (min-width: 768px) {
 		body {
             color : white;
-            background: url(https://im0-tub-ru.yandex.net/i?id=82d1261a3ad14d4fbc6674187bb5aacc-l&ref=rim&n=13&w=640&h=640);
+            background: url(https://phonoteka.org/uploads/posts/2021-05/1620771220_3-phonoteka_org-p-fon-dlya-aitishnika-3.jpg);
 		}
 
          .btn-grad {background-image: linear-gradient(to right, #485563 0%, #29323c  51%, #485563  100%)}
@@ -135,4 +135,34 @@ div{
 /* } */
 #main{
     display:inline;
+}
+
+input{
+    color:white;
+    background: transparent;
+    width: 200px;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: none;
+    border-left: 1px solid #ff33ff;
+    border-top: 1px solid #ff33ff;
+    border-radius: 5000px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px
+    
+
+}
+#text{
+    position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);
+}
+#text1{
+    position: absolute;top: 200%;left: 50%;transform: translate(-50%, 250%);
+}
+#bnt{
+    width:100%;
+}
+.inp{
+
+    position:relative;
+
 }

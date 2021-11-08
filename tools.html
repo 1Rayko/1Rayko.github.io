@@ -7,7 +7,7 @@
         <meta charset="UTF-8"> <!-- Определяем кодировку символов документа -->
 
         <title> Tools </title> <!-- Задаем заголовок документа -->
-        
+      
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3/build/web/hack-subset.css">
         <script src = "script.js" type="text/javascript"></script>
@@ -18,11 +18,17 @@
         <!-- <script> alert("Coming soon...") </script> -->
         <!-- <button class="btn-grad" onclick="alert(1)" >Readme</button> -->
         <!-- <script src="https://vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script> -->
-        <h1>Накрутка фото</h1>
-        <input type="text" id="text" name="token" value="" placeholder="Токен" /> 
-        <input type="text" id="text1" name="id_al" value="" placeholder="Id альбома" />
+        <div class="content">
+            <h1>Накрутка фото</h1>
+            <div class="inp">
+                <input type="text" id="text" name="token" value="" placeholder="Токен" /> 
+                <input type="number" id="text1" name="id_al" value="" placeholder="Id альбома" />
 
-        <button type="submit" class = "btn-grad" onclick="alerted();" > Начать  </button>
-        <a href="index.html" class="btn-grad"> Go back </a>
+            </div>
+        </div>
+        <div class="footer">
+            <a href="javascript:{}" onclick=" alerted();" class = "btn-grad">Начать</a>
+            <a href="index.html" class="btn-grad"> Go back </a>
+        </div>
     </body>
 </html>
