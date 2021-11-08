@@ -1,4 +1,4 @@
-@media (min-width: 576px) {
+@media (min-width: 768px) {
 		body {
             color : white;
             background: url(https://im0-tub-ru.yandex.net/i?id=82d1261a3ad14d4fbc6674187bb5aacc-l&ref=rim&n=13&w=640&h=640);
@@ -19,7 +19,7 @@
 /* } */
  
 /* Большие девайсы (десктопы, >= 992px) */
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     body {
         background: url( https://catherineasquithgallery.com/uploads/posts/2021-02/1614390868_74-p-temnii-fon-na-noutbuke-87.jpg );
         color : white;
