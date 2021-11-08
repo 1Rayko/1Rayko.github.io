@@ -5,14 +5,14 @@
 	}
 
 
-/* Средние девайсы («таблетки», >= 768px) */
-@media (min-width: 768px) {
-    body {
-        background: url( https://pbs.twimg.com/profile_images/1140217390271066113/cM2sBWTb.jpg  );
-        color : white;
-    }
-
-}
+/* [> Средние девайсы («таблетки», >= 768px) <] */
+/* @media (min-width: 768px) { */
+/*     body { */
+/*         background: url( https://pbs.twimg.com/profile_images/1140217390271066113/cM2sBWTb.jpg  ); */
+/*         color : white; */
+/*     } */
+/*  */
+/* } */
  
 /* Большие девайсы (десктопы, >= 992px) */
 @media (min-width: 768px) {
