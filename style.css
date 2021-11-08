@@ -1,7 +1,8 @@
 @media (min-width: 576px) {
 		body {
             color : white;
-			background: url(https://im0-tub-ru.yandex.net/i?id=82d1261a3ad14d4fbc6674187bb5aacc-l&ref=rim&n=13&w=640&h=640);
+            background: url(https://im0-tub-ru.yandex.net/i?id=82d1261a3ad14d4fbc6674187bb5aacc-l&ref=rim&n=13&w=640&h=640);
+            background-repeat: no-repeat;
 		}
 
          .btn-grad {background-image: linear-gradient(to right, #485563 0%, #29323c  51%, #485563  100%)}
@@ -23,6 +24,7 @@
     body {
         background: url( https://catherineasquithgallery.com/uploads/posts/2021-02/1614390868_74-p-temnii-fon-na-noutbuke-87.jpg );
         color : white;
+        background-repeat: no-repeat;
     }
 
     .btn-grad {background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%)}
@@ -35,6 +37,7 @@
     body {
         background: url( https://catherineasquithgallery.com/uploads/posts/2021-02/1612932520_93-p-krasnii-fon-noutbuk-120.jpg );
         color : #ffc6d4;    
+        background-repeat: no-repeat;
         
     
     }
