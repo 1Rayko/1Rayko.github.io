@@ -34,9 +34,8 @@
 @media (min-width: 1200px) {
     body {
         background: url( https://catherineasquithgallery.com/uploads/posts/2021-02/1612932520_93-p-krasnii-fon-noutbuk-120.jpg );
-        color : #ffc6d4;    
-        
-    
+        color : #f7BB97;    
+   text-shadow: 0px 0px 6px rgba(255,255,255,0.7); 
     }
 
 
@@ -67,7 +66,8 @@
 
 
 body {
-    font-size: 30px;
+
+    font-size: 200%;
     background-color: #555;
     background-size: cover;
     background-position: center center;
@@ -105,4 +105,34 @@ div{
     /*min-height:60px;*/
     
 }
-
+/* .content{ */
+/*     display:flex; */
+/*     margin:auto; */
+/* } */
+/* .title{ */
+/*     width:270ch; */
+/*     white-space: nowrap; */
+/*     overflow:hidden; */
+/*     border-right: white; */
+/*     animation: flashing-border 0.7s step-end infinite, print-text 10s steps(270) ; */
+/* } */
+/* @keyframes flashing-border{ */
+/*     0%{ */
+/*         border-color: white; */
+/*     } */
+/*     50% */
+/*     { */
+/*         border-color:transparent ;  */
+/*     } */
+/*     100%{ */
+/*         border-color: white; */
+/*     } */
+/* } */
+/* @keyframes print-text{ */
+/*     from{ */
+/*         width:0; */
+/*     } */
+/* } */
+#main{
+    display:inline;
+}

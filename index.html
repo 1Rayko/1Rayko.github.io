@@ -16,13 +16,19 @@
     <body> 
    
         <!-- <button class="btn-grad" onclick="alert(1)" >Readme</button> -->
+       
+
         <div class = "content">
-            
-            <p><img class="me"  src="https://avatars.githubusercontent.com/u/55040629?v=4" alt="" align="left"/> Hello! My nickname is sudoreboot. </p>
-            <p>This website is my first.</p>
-            <p>My way to IT began in 2018, when I installed linux on my old laptop....</p>
-            <p> At the moment I have <a href = "https://github.com/kotik06">github</a>, where most of my projects are stored </p>
-             
+            <img class="me"  src="https://avatars.githubusercontent.com/u/55040629?v=4" alt="" align="left"/>
+            <div >
+                <div id = "main"></div>
+            </div>
+            <div id="aboba">
+                <span>Hello! My nickname is sudoreboot.
+                This website is my first.
+                My way to IT began in 2018, when I installed linux on my old laptop....
+                At the moment I have <a  href = "https://github.com/kotik06">github</a>, where most of my projects are stored.</span>    
+            </div>
             
             <!-- <p align="right"> My nickname is sudoreboot </p> -->
         </div>
@@ -30,5 +36,16 @@
             <a href="readme.html" class="btn-grad"> Readme </a>
             <a href="tools.html" class="btn-grad"> Tools </a>
         </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>            
+        <script>
+            let typed = new Typed("#main",{
+                            typeSpeed:50,
+                            backSpeed:50,
+                            startdelay:500,
+                            loop:false,
+                            stringsElement:"#aboba"
+                            })
+        </script>
     </body>
 </html>
