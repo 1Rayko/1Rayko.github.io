@@ -3,6 +3,9 @@
             color : white;
 			background: url(https://im0-tub-ru.yandex.net/i?id=82d1261a3ad14d4fbc6674187bb5aacc-l&ref=rim&n=13&w=640&h=640);
 		}
+
+         .btn-grad {background-image: linear-gradient(to right, #485563 0%, #29323c  51%, #485563  100%)}
+         
 	}
 
 
@@ -22,6 +25,9 @@
         color : white;
     }
 
+    .btn-grad {background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%)}
+
+
 }
  
 /* Экстрабольшие девайсы (большие десктопы, >= 1200px) */
@@ -29,33 +35,16 @@
     body {
         background: url( https://catherineasquithgallery.com/uploads/posts/2021-02/1612932520_93-p-krasnii-fon-noutbuk-120.jpg );
         color : #ffc6d4;    
-    
+        
     
     }
+
+
+         .btn-grad {background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%)}
+         
 }
  
 /* общие стили для всех девайсов */
-body {
-    background-color: #555;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    font-family: Hack, monospace;
-}
-
-H1 {
-    text-align: center
-}
-div{
-
-    margin: auto
-}
-
-
-
-
-.btn-grad {background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%)}
-
 
 .btn-grad {
     margin: 10px;
@@ -75,6 +64,27 @@ div{
     color: #fff;
     text-decoration: none;
 }
+
+
+body {
+    background-color: #555;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: Hack, monospace;
+}
+
+H1 {
+    text-align: center
+}
+div{
+
+    margin: auto
+}
+
+
+
+
 .content {
 	box-sizing: border-box;
 	min-height: 100%;
