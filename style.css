@@ -1,5 +1,6 @@
 @media (min-width: 576px) {
 		body {
+            color : white;
 			background: url(https://im0-tub-ru.yandex.net/i?id=82d1261a3ad14d4fbc6674187bb5aacc-l&ref=rim&n=13&w=640&h=640);
 		}
 	}
@@ -35,6 +36,7 @@
  
 /* общие стили для всех девайсов */
 body {
+    background-color: #555;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
