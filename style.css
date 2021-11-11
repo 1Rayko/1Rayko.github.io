@@ -1,45 +1,3 @@
-/* @media (min-width: 768px) { */
-/*         body { */
-/*             color : white; */
-/*             background: url(https://phonoteka.org/uploads/posts/2021-05/1620771220_3-phonoteka_org-p-fon-dlya-aitishnika-3.jpg); */
-/*         } */
-/*  */
-/*          .btn-grad {background-image: linear-gradient(to right, #485563 0%, #29323c  51%, #485563  100%)} */
-/*           */
-/*     } */
-/*  */
-/*  */
-/* [> [> Средние девайсы («таблетки», >= 768px) <] <] */
-/* [> @media (min-width: 768px) { <] */
-/* [>     body { <] */
-/* [>         background: url( https://pbs.twimg.com/profile_images/1140217390271066113/cM2sBWTb.jpg  ); <] */
-/* [>         color : white; <] */
-/* [>     } <] */
-/* [>  <] */
-/* [> } <] */
-/*   */
-/* [> Большие девайсы (десктопы, >= 992px) <] */
-/* @media (min-width: 992px) { */
-/*     .X { */
-/*         background: url( https://catherineasquithgallery.com/uploads/posts/2021-02/1614390868_74-p-temnii-fon-na-noutbuke-87.jpg ); */
-/*         color : white; */
-/*     } */
-/*  */
-/*     .btn-grad {background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%)} */
-/*  */
-/*  */
-/* } */
-/*   */
-/* [> Экстрабольшие девайсы (большие десктопы, >= 1200px) <] */
-/* @media (min-width: 1200px) { */
-/*  */
-/*  */
-/*           */
-/* } */
-/*   */
-/* [> общие стили для всех девайсов <] */
-/*  */
-
 
 /* .btn-grad {background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%)} */
 .btn-grad {
@@ -78,20 +36,12 @@ body{
     background-color: #555;
     
     background-position: center center;
-    background-attachment: fixed;
+    
     font-family: Hack, monospace;
 }
 H1 {
     text-align: center
 }
-/* div{ */
-/*  */
-/*     margin: auto */
-/* } */
-/*  */
-/*  */
-/*  */
-/*  */
 .content {
     box-sizing: border-box;
     padding-bottom: 90px;
@@ -110,64 +60,32 @@ H1 {
     min-height:60px;
 
 }
-/* [> .content{ <] */
-/* [>     display:flex; <] */
-/* [>     margin:auto; <] */
-/* [> } <] */
-/* [> .title{ <] */
-/* [>     width:270ch; <] */
-/* [>     white-space: nowrap; <] */
-/* [>     overflow:hidden; <] */
-/* [>     border-right: white; <] */
-/* [>     animation: flashing-border 0.7s step-end infinite, print-text 10s steps(270) ; <] */
-/* [> } <] */
-/* [> @keyframes flashing-border{ <] */
-/* [>     0%{ <] */
-/* [>         border-color: white; <] */
-/* [>     } <] */
-/* [>     50% <] */
-/* [>     { <] */
-/* [>         border-color:transparent ;  <] */
-/* [>     } <] */
-/* [>     100%{ <] */
-/* [>         border-color: white; <] */
-/* [>     } <] */
-/* [> } <] */
-/* [> @keyframes print-text{ <] */
-/* [>     from{ <] */
-/* [>         width:0; <] */
-/* [>     } <] */
-/* [> } <] */
-/* #main{ */
-/*     display:inline; */
-/* } */
-/*  */
-/* input{ */
-/*     color:white; */
-/*     background: transparent; */
-/*     width: 200px; */
-/*     padding: 1em; */
-/*     margin-bottom: 2em; */
-/*     border: none; */
-/*     border-left: 1px solid #ff33ff; */
-/*     border-top: 1px solid #ff33ff; */
-/*     border-radius: 5000px; */
-/*     backdrop-filter: blur(5px); */
-/*     box-shadow: 4px 4px 60px */
-/*      */
-/*  */
-/* } */
-/* #text{ */
-/*     position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%); */
-/* } */
-/* #text1{ */
-/*     position: absolute;top: 200%;left: 50%;transform: translate(-50%, 250%); */
-/* } */
-/* #bnt{ */
-/*     width:100%; */
-/* } */
-/* .inp{ */
-/*  */
-/*     position:relative; */
-/*  */
-/* } */
+input{
+    color:white;
+    background: transparent;
+    width: 200px;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: none;
+    border-left: 1px solid #ff33ff;
+    border-top: 1px solid #ff33ff;
+    border-radius: 5000px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px
+
+
+}
+#text{
+    position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);
+}
+#text1{
+    position: absolute;top: 200%;left: 50%;transform: translate(-50%, 250%);
+}
+#bnt{
+    width:1vw;
+}
+.inp{
+
+    position:relative;
+
+}
