@@ -1,91 +1,13 @@
-
-/* .btn-grad {background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%)} */
-.btn-grad {
-    margin: 10px;
-    padding: 15px 45px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;
-    box-shadow: 0 0 20px #eee;
-    border-radius: 10px;
-    display: block;
-}
-
-.btn-grad:hover {
-    background-position: right center; [> change the direction of the change here <]
-    color: #fff;
-    text-decoration: none;
-}
-
-
-.X {
-    color : #f7BB97;
-    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
-
-}
-
-
 body{
+    background-color:#1c2329;
+    display:inline;
+}
+h1 { color: #ffffff; font-family: 'Lato', sans-serif; font-size: 54px; font-weight: 300; line-height: 58px; margin: 0 0 58px; }
 
+p { color: #adb7bd; font-family:'Lucida Sans', Arial, sans-serif; font-size: 16px; line-height: 26px; text-indent: 30px; margin: 0; }
 
-    background: url( https://catherineasquithgallery.com/uploads/posts/2021-02/1612932520_93-p-krasnii-fon-noutbuk-120.jpg );
-    
-    font-size: 2vw;
-    background-color: #555;
-    
-    background-position: center center;
-    
-    font-family: Hack, monospace;
-}
-H1 {
-    text-align: center
-}
-.content {
-    box-sizing: border-box;
-    padding-bottom: 90px;
-}
-.footer {
-    text-align: center;
-    width:95%;
-    height: 80px;
-    margin-top: -80px;
-    position:fixed;
-    top: 90%
-}
-.me{
-    border-radius: 50%;
-    width: 25%;
-    min-height:60px;
+a { color: #fe921f; text-decoration: underline; }
 
-}
-input{
-    color:white;
-    background: transparent;
-    width: 200px;
-    padding: 1em;
-    margin-bottom: 2em;
-    border: none;
-    border-left: 1px solid #ff33ff;
-    border-top: 1px solid #ff33ff;
-    border-radius: 5000px;
-    backdrop-filter: blur(5px);
-    box-shadow: 4px 4px 60px
+a:hover { color: #ffffff }
 
-
-}
-#text{
-    position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);
-}
-#text1{
-    position: absolute;top: 200%;left: 50%;transform: translate(-50%, 250%);
-}
-#bnt{
-    width:1vw;
-}
-.inp{
-
-    position:relative;
-
-}
+.date { background: #fe921f; color: #ffffff; display: inline-block; font-family: 'Lato', sans-serif; font-size: 12px; font-weight: bold; line-height: 12px; letter-spacing: 1px; margin: 0 0 30px; padding: 10px 15px 8px; text-transform: uppercase; }

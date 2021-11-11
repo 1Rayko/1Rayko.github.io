@@ -1,4 +1,3 @@
-<!DOCTYPE html> <!-- Объявление формата документа -->
 <html>
 
     <head> <!-- Техническая информация о документе -->
@@ -17,7 +16,7 @@
    
         <!-- <button class="btn-grad" onclick="alert(1)" >Readme</button> -->
         <div class="date">
-            <a></a>
+<?php echo date('l, F jS, Y'); ?>
         </div>
 
         <div class = "content">
