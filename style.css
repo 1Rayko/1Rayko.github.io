@@ -20,7 +20,7 @@
  
 /* Большие девайсы (десктопы, >= 992px) */
 @media (min-width: 992px) {
-    body {
+    .X {
         background: url( https://catherineasquithgallery.com/uploads/posts/2021-02/1614390868_74-p-temnii-fon-na-noutbuke-87.jpg );
         color : white;
     }
@@ -32,7 +32,7 @@
  
 /* Экстрабольшие девайсы (большие десктопы, >= 1200px) */
 @media (min-width: 1200px) {
-    body {
+    .X {
         background: url( https://catherineasquithgallery.com/uploads/posts/2021-02/1612932520_93-p-krasnii-fon-noutbuk-120.jpg );
         color : #f7BB97;    
    text-shadow: 0px 0px 6px rgba(255,255,255,0.7); 
