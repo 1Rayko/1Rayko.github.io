@@ -34,12 +34,14 @@
 /* @media (min-width: 1200px) { */
 /*  */
 /*  */
-/*          .btn-grad {background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%)} */
 /*           */
 /* } */
 /*   */
 /* [> общие стили для всех девайсов <] */
 /*  */
+
+
+/* .btn-grad {background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%)} */
 .btn-grad {
     margin: 10px;
     padding: 15px 45px;
@@ -74,7 +76,7 @@ body{
     
     font-size: 2vw;
     background-color: #555;
-    background-size: cover;
+    
     background-position: center center;
     background-attachment: fixed;
     font-family: Hack, monospace;
