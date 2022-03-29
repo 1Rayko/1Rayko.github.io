@@ -1,5 +1,0 @@
-# ?
-
-```python
-print("Hello, World!")
-```
