@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css?family=Press Start 2P');
+
+.grid{
+    display: grid;
+    gap:1rem;
+    grid-template-columns: repeat(auto-fit);
+}
+
+body{ background-color: lightgreen;}
+
+
+#ttt{
+    font-family: 'Press Start 2P' ;
+    opacity: 0.4;
+
+}
+#head{
+    font-family: 'Press Start 2P' ;
+    text-align: center;
+    font-size: 60px;
+}
+
+.main{
+/*    display: grid;
+    gap:1rem;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+  */  text-align: center;   
+
+}
+
+.data{
+    /*margin-left:  150px;
+    margin-right: 150px;
+    */
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    
+
+}
+figcaption.text{
+    font-family: 'Press Start 2P';
+    border: none;
+}
+.text{
+    font-family: 'Press Start 2P';
+    flex-wrap: wrap;
+    font-size: 30px;
+    border: solid;
+    border-color: greenyellow ;
+    border-width: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+a.text{
+    font-family: 'Press Start 2P' ;
+    text-decoration: none;
+    color: black;
+
+}
+a.text:hover{
+    font-family: 'Press Start 2P' ;
+    text-decoration: none;
+    color: gray; 
+}
+a.text::after{
+    font-family: 'Press Start 2P' ;
+    text-decoration: none;
+    color: grey; 
+}
