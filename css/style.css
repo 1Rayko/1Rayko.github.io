@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Press Start 2P');
 
 .grid{
+    text-align: center;
     display: grid;
     gap:1rem;
     grid-template-columns: repeat(auto-fit);
