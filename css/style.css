@@ -1,74 +1,348 @@
 
-@import url('https://fonts.googleapis.com/css?family=Press Start 2P');
-
-.grid{
-    text-align: center;
-    display: grid;
-    gap:1rem;
-    grid-template-columns: repeat(auto-fit);
+* {
+	box-sizing: border-box;
 }
 
-body{ background-color: lightgreen;}
+html, body {
+	overflow-x: hidden;
 
-
-#ttt{
-    font-family: 'Press Start 2P' ;
-    opacity: 0.4;
-
-}
-#head{
-    font-family: 'Press Start 2P' ;
-    text-align: center;
-    font-size: 60px;
+	scroll-behavior: smooth;
 }
 
-.main{
-/*    display: grid;
-    gap:1rem;
-    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
-  */  text-align: center;   
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #FEFEF2;
+	font-family: 'Arial', sans-serif;
+	transition: background-color 0.5s ease;
 
 }
 
-.data{
-    /*margin-left:  150px;
-    margin-right: 150px;
-    */
-    display: block;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    text-align: center;
-    
+
+/* Ночная тема */
+body.night {
+	background-color: #000;
+	/* 2c3e50 */
+	/* Это прочие стили ночной темы */
+}
+
+/* nav */
+.nav {
+	/* position: fixed; */
+	/* width: 100%; */
+	/* margin-bottom: auto; */
+    background-color: #C1C1F1;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.nav ul li {
+	padding: 0 20px;
+	}
+
+.nav ul li a {
+	text-decoration: none;
+	color: #333;
+	font-size: 1.2em;
+	transition: color 0.3s;
+}
+
+.nav ul li a:hover, .nav ul li a:focus {
+	color: #ff79c6;
+}
+
+/* сеточка */
+.grid-pattern {
+	position: absolute;
+	width: 100%;
+	height: 300%; /* тоже не нормально тут*/
+	background-image:
+		linear-gradient(rgba(200,200,200,0.5) 1px, transparent 1px),
+		linear-gradient(90deg, rgba(200,200,200,0.5) 1px, transparent 1px);
+	background-size: 50px 50px;
+	z-index: -1;
 
 }
-figcaption.text{
-    font-family: 'Press Start 2P';
-    border: none;
+
+#emae{
+	height: 100%;
 }
-.text{
-    font-family: 'Press Start 2P';
-    flex-wrap: wrap;
-    font-size: 30px;
-    border: solid;
-    border-color: greenyellow ;
-    border-width: 3px;
-    font-family: 'Courier New', Courier, monospace;
-    
+
+
+/* типо gприложение  */
+.x{
+
+	width: 25px ;
+	height: 25px;
+	margin: 5px;
+	background-color: #dac2fe;
+	box-shadow: 2px 2px  #000df2;
+}
+
+.x:hover{
+
+	background-color: #000df2;
+	box-shadow: 2px 2px  #dac2fe;
+}
+.xp{
+	min-height: 30%;
+	/* max-width: fit-content; */
+	margin: 20px; /*	228px!!!!*/
+	border-style: solid;
+	border-color:gray;
+	display: inline-block;
+	box-shadow: 10px 10px  rgb(255, 0, 212);
+	background-color: #af7bfe;
+}
+.xp-content{
+
+	padding: 2%;
 
 }
-a.text{
-    font-family: 'Press Start 2P' ;
-    text-decoration: none;
-    color: black;
+
+.xp-nav img{
+	margin-left: 20px;
 
 }
-a.text:hover{
-    font-family: 'Press Start 2P' ;
-    text-decoration: none;
-    color: gray; 
+.xp-nav p {
+	align-items: center;
+	margin-left: auto;
+    margin-right: auto;
+	font-family: 'Press Start 2P' ;
+
+	color:#1717ff;
+
 }
-a.text::after{
-    font-family: 'Press Start 2P' ;
-    text-decoration: none;
-    color: grey; 
+.xp-nav{
+	justify-content: space-between;
+	display: flex;
+	background-color: #8af3fb;
+	border-style: solid;
+	border-color: rgba(255, 255, 255, 0);
+
+}
+.xp-content p{
+	text-align: left;
+	font-family: 'Press Start 2P' ;
+
+}
+.xp-content video{
+	height:250px;
+
+}
+.xp-content td{
+
+	/* margin: auto;
+	text-align: center; */
+}
+
+.xp-content#whoami{
+	text-align: center;
+}
+
+
+#qqq{
+	text-align: right;
+}
+#ccc{
+	text-align: center;
+
+}
+.blink {
+    animation: blink 1.5s infinite; /* Параметры анимации */
+   }
+   @keyframes blink {
+    from { opacity: 1; /* Непрозрачный текст */ }
+    to { opacity: 0; /* Прозрачный текст */ }
+   }
+
+/* огромный текст  */
+.hero {
+	/* font-weight: 100%;
+	height: 100%;
+	text-align: center; */
+
+}
+
+
+.title {
+	position: relative;
+	/* z-index: 1; */
+
+	font-family: 'Falcon';
+	font-size: 7em;
+	color: #000;
+	background-color: #fefef2;  /*rgba(255, 255, 255, 0.7);*/
+	display: contents;/*inline-block; */
+	/* padding: 20px 40px; */
+	margin: 0;
+	border-radius: 10px;
+
+}
+
+/*
+
+картинки
+
+*/
+
+#lamp{
+	position:absolute;
+	right: 2%;
+	top:5%;
+
+	z-index: 0;
+
+	transform: rotate(15deg) ;
+	width: 300px;
+}
+/* анимация при нажатии  */
+.lamp-flash {
+	pointer-events: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: radial-gradient(circle at center, transparent 0%, transparent 75%, rgba(0, 0, 0, 0.8) 100%);
+	animation: flash 1.5s forwards;
+	z-index: 9999;
+
+}
+
+  /* Ключевые кадры для анимации */
+  @keyframes flash {
+	0% {
+	  transform: scale(0);
+	  opacity: 1;
+	}
+	100% {
+	  transform: scale(1000);
+	  opacity: 0;
+	}
+  }
+
+#eye{
+	position: absolute;
+	left:  10%;
+	top: 250%;
+
+	z-index: -1;
+	transform: rotate(15deg) ;
+	width:350px;
+}
+#cat{
+
+	position: absolute;
+
+	left:  10%;
+	top: 114%;
+	/* margin-left: auto;
+	margin-right: auto; */
+	z-index: -1;
+	transform: rotate(15deg) ;
+	width:350px;
+}
+
+#pc{
+
+	position: absolute;
+	left:  50%;
+	top: 80%;
+	/* margin-left: auto;
+	margin-right: auto; */
+	z-index: -1;
+	transform: rotate(15deg) ;
+	width:350px;
+}
+
+#crys{
+	position: absolute;
+	left:  5%;
+	top: 9%;
+	/* margin-left: auto;
+	margin-right: auto; */
+	z-index: -1;
+	transform: rotate(15deg) ;
+	width:350px;
+
+}
+
+#cat1{
+	position: absolute;
+	right:  10%;
+	top: 200%;
+	z-index: -1;
+	transform: rotate(15deg) ;
+	width:350px;
+	transition: 1s;
+}
+
+
+/*Страницы*/
+
+
+
+#first {
+
+
+
+
+    /* position: absolute; */
+    /* top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; */
+    /* margin: 250px; */
+
+
+}
+
+
+#sec{
+	margin: auto;
+	margin-left: 10%;
+
+
+}
+
+#thr {
+
+
+  }
+
+
+
+.f{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+	min-height: 100vh;
+
+
+}
+
+
+
+.gallery-container {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+
+}
+
+
+
+#aaa{
+	padding: 10px;
 }
