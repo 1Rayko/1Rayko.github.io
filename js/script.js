@@ -1,4 +1,11 @@
+window.addEventListener('load', function () {
+	var preloader = document.getElementById('preloader');
+	preloader.style.display = 'none';
+ });
+
+
 let mode='light';
+
 if(!localStorage.getItem('mode'))
 {
 	localStorage.setItem('mode','light');
